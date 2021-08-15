@@ -8,7 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "build": "rimraf build && mkdir build && cp index.html build/index.html -f",
+    "build": "rimraf build && mkdir build && cp index.html build/index.html -f && cp style.css build/style.css -f",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
